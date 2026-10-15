@@ -1,69 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  
-  <meta charset="UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Ejercicios de repaso - Fundamentos de JavaScript</title>
-  
-  <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de JavaScript - Anexo de Ejercicios</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container-root">
+        <header class="header-root">
+            <h1>Fundamentos de JavaScript</h1>
+            <p class="subtitulo-root">DWECL &bull; Práctica 1.1: Arquitecturas y lenguajes de programación en clientes web</p>
+            <p class="desc-root">Colección completa de los 21 ejercicios solicitados en el anexo de la práctica.</p>
+        </header>
 
-  <header class="top-banner">
-    <h1>Fundamentos de JavaScript</h1>
-    <p class="banner-subtitle">Ejercicios de repaso - DAM / Desarrollo de Aplicaciones Multiplataforma</p>
-  </header>
-
-  <main class="main-container">
-
-    <section class="content-card">
-      <h2>Enunciado general</h2>
-      <p> Haz una página web que muestre por cada ejercicio:</p>
-      <ul>
-        <li>El <strong>enunciado</strong> del ejercicio.</li>
-        <li><strong>Estilos CSS</strong> para hacerlo más vistoso.</li>
-        <li><strong>Elementos necesarios</strong>: encabezados, enlaces, formularios y campos.</li>
-        <li>El <strong>resultado en una capa distinta</strong> a la del enunciado.</li>
-        <li>Código JS con <strong>comentarios exhaustivos línea por línea</strong> para poder explicarlo en clase.</li>
-      </ul>
-      <p class="tip-box">Consejo: abre las herramientas de desarrollo (F12) para ver también la consola real del navegador.</p>
-    </section>
-
-    <section class="content-card">
-      <h2>Índice de ejercicios</h2>
-      <ul class="nav-list">
-        <li><a href="ejercicio-01.html"><strong>Ejercicio 1.</strong> Variables de varios tipos y tipos de dato en consola (log, error, info, debug)</a></li>
-        <li><a href="ejercicio-02.html"><strong>Ejercicio 2.</strong> Array de 100 números aleatorios, console.table y filtrado por rango</a></li>
-        <li><a href="ejercicio-03.html"><strong>Ejercicio 3.</strong> Objeto persona con todos los tipos de dato (log y table)</a></li>
-        <li><a href="ejercicio-04.html"><strong>Ejercicio 4.</strong> Suma de dos números pedidos con prompt() y Number()</a></li>
-        <li><a href="ejercicio-05.html"><strong>Ejercicio 5.</strong> Verificar si un número es par o impar (prompt)</a></li>
-        <li><a href="ejercicio-06.html"><strong>Ejercicio 6.</strong> Par o impar obteniendo el número de un campo input</a></li>
-        <li><a href="ejercicio-07.html"><strong>Ejercicio 7.</strong> Contar vocales en una palabra (for + includes)</a></li>
-        <li><a href="ejercicio-08.html"><strong>Ejercicio 8.</strong> Número aleatorio entero entre un intervalo: azar(-5, 10)</a></li>
-        <li><a href="ejercicio-09.html"><strong>Ejercicio 9.</strong> Revertir una cadena (split, reverse, join)</a></li>
-        <li><a href="ejercicio-10.html"><strong>Ejercicio 10.</strong> Encontrar el número más grande de un array (Math.max + ...)</a></li>
-        <li><a href="ejercicio-11.html"><strong>Ejercicio 11.</strong> 100 números del 1 al 20 y contar cuáles han aparecido</a></li>
-        <li><a href="ejercicio-12.html"><strong>Ejercicio 12.</strong> Filtrar números pares de un array (filter + %)</a></li>
-        <li><a href="ejercicio-13.html"><strong>Ejercicio 13.</strong> Contar palabras en una frase (split)</a></li>
-        <li><a href="ejercicio-14.html"><strong>Ejercicio 14.</strong> Verificar si una palabra es un palíndromo</a></li>
-        <li><a href="ejercicio-15.html"><strong>Ejercicio 15.</strong> Números primos entre 1 y n (función esPrimo)</a></li>
-        <li><a href="ejercicio-16.html"><strong>Ejercicio 16.</strong> Convertir grados Celsius a Fahrenheit</a></li>
-        <li><a href="ejercicio-17.html"><strong>Ejercicio 17.</strong> Ordenar un array de números de menor a mayor (sort)</a></li>
-        <li><a href="ejercicio-18.html"><strong>Ejercicio 18.</strong> Encontrar la palabra más larga de una frase</a></li>
-        <li><a href="ejercicio-19.html"><strong>Ejercicio 19.</strong> Calcular el promedio de un array (reduce)</a></li>
-        <li><a href="ejercicio-20.html"><strong>Ejercicio 20.</strong> Convertir una cadena a mayúsculas y minúsculas</a></li>
-        <li><a href="ejercicio-21.html"><strong>Ejercicio 21.</strong> Filtrar números mayores que un valor (filter)</a></li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <p>DAM/DAW - Ejercicios de repaso de JavaScript con comentarios para clase</p>
-  </footer>
-
+        <main class="grid-ejercicios">
+            
+        <a href="ejercicio1/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 1</span>
+            <h3>Variables y tipos de datos en la consola</h3>
+            <p>Declara variables de varios tipos. Muestra el contenido en la consola junto con el tipo de dato. En este ejercicio utiliza el console.log, console.error, console.info y el console.debug</p>
+        </a>
+        <a href="ejercicio2/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 2</span>
+            <h3>Array de 100 números y filtrado</h3>
+            <p>Declara un array de 100 números. Rellena el array con valores al azar. Muestra el contenido console.table. Realiza un filtrado de datos. Por ejemplo mostrando los valores de un determinado rango</p>
+        </a>
+        <a href="ejercicio3/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 3</span>
+            <h3>Objeto Persona y console.table</h3>
+            <p>Declara un objeto persona con las propiedades más habituales, usando todos los tipos de datos incluidos un array y otro objeto. Muestra el contenido usando console.log y console.table</p>
+        </a>
+        <a href="ejercicio4/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 4</span>
+            <h3>Suma con prompt() y Number()</h3>
+            <p>Escribe un programa que pida al usuario ingresar dos números y luego muestre la suma. Usa prompt() para pedir datos al usuario y Number() para convertir las entradas a números. Usa console.log() para mostrar el resultado</p>
+        </a>
+        <a href="ejercicio5/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 5</span>
+            <h3>Número par o impar</h3>
+            <p>Crea un programa que verifique si un número ingresado por el usuario es par o impar.</p>
+        </a>
+        <a href="ejercicio6/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 6</span>
+            <h3>Número par o impar desde input</h3>
+            <p>Crea un programa anterior para que se obtenga el número de un campo input.</p>
+        </a>
+        <a href="ejercicio7/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 7</span>
+            <h3>Contar vocales en una palabra</h3>
+            <p>Contar vocales en una palabra. Escribe una función que reciba una palabra y cuente cuántas vocales tiene. Usa un bucle for y la función includes() para verificar si un carácter es una vocal.</p>
+        </a>
+        <a href="ejercicio8/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 8</span>
+            <h3>Número aleatorio en un intervalo</h3>
+            <p>Escribe una función que permita generar un número aleatorio entero entre un intervalo. Por ejemplo azar(-5, 10). Salida: 3</p>
+        </a>
+        <a href="ejercicio9/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 9</span>
+            <h3>Revertir una cadena</h3>
+            <p>Revertir una cadena. Escribe una función que tome una cadena como argumento y devuelva la cadena invertida. Usa el método split() para convertir la cadena en un arreglo, reverse() para invertir el arreglo, y join() para unirlo de nuevo.</p>
+        </a>
+        <a href="ejercicio10/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 10</span>
+            <h3>Número más grande en un array</h3>
+            <p>Encontrar el número más grande en un array. Crea una función que encuentre el número más grande en un array. Usa el método Math.max() y el operador ... para "expandir" el array</p>
+        </a>
+        <a href="ejercicio11/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 11</span>
+            <h3>100 números del 1 al 20 y frecuencias</h3>
+            <p>Escribe un programa que genere 100 números del 1 al 20. Debe mostrar la cuenta de los números que al menos han aparecido una vez.</p>
+        </a>
+        <a href="ejercicio12/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 12</span>
+            <h3>Filtrar números pares de un array</h3>
+            <p>Filtrar números pares de un array. Crea una función que tome un array de números y devuelva un nuevo array con solo los números pares. Usa filter() y el operador %</p>
+        </a>
+        <a href="ejercicio13/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 13</span>
+            <h3>Contar palabras en una frase</h3>
+            <p>Contar palabras en una frase. Escribe un programa que cuente cuántas palabras tiene una frase ingresada por el usuario. Usa el método split() para dividir la frase en un array de palabras.</p>
+        </a>
+        <a href="ejercicio14/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 14</span>
+            <h3>Verificar si una palabra es palíndromo</h3>
+            <p>Verificar si una palabra es un palíndromo. Escribe una función que verifique si una palabra es un palíndromo (es decir, si se lee igual al derecho y al revés). Compara la palabra original con su versión invertida usando split(), reverse() y join().</p>
+        </a>
+        <a href="ejercicio15/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 15</span>
+            <h3>Números primos en un rango</h3>
+            <p>Encontrar los números primos en un rango. Escribe un programa que imprima todos los números primos entre 1 y un número dado por el usuario. Crea un función llamada esPrimo(num) que reciba num, un número entero</p>
+        </a>
+        <a href="ejercicio16/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 16</span>
+            <h3>Grados Celsius a Fahrenheit</h3>
+            <p>Convertir grados Celsius a Fahrenheit. Escribe una función que convierta grados Celsius a Fahrenheit. La fórmula es: Fahrenheit = (Celsius * 9/5) + 32</p>
+        </a>
+        <a href="ejercicio17/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 17</span>
+            <h3>Ordenar un array de números</h3>
+            <p>Ordenar un array de números. Escribe un programa que tome un array de números y lo ordene de menor a mayor. Usa el método sort() con una función de comparación.</p>
+        </a>
+        <a href="ejercicio18/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 18</span>
+            <h3>Palabra más larga en una frase</h3>
+            <p>Encontrar la palabra más larga en una frase. Escribe una función que encuentre la palabra más larga en una frase ingresada por el usuario. Usa split() para dividir la frase en palabras, luego recorre el array con un bucle para encontrar la palabra más larga.</p>
+        </a>
+        <a href="ejercicio19/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 19</span>
+            <h3>Calcular el promedio con reduce()</h3>
+            <p>Calcular el promedio de un array de números. Escribe una función que reciba un array de números y calcule su promedio. Usa reduce() para sumar todos los números y luego divide entre la longitud del array.</p>
+        </a>
+        <a href="ejercicio20/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 20</span>
+            <h3>Mayúsculas y minúsculas</h3>
+            <p>Convertir una cadena a mayúsculas y minúsculas. Escribe una función que convierta una cadena de texto a mayúsculas y luego a minúsculas, mostrando ambos resultados. Usa los métodos toUpperCase() y toLowerCase().</p>
+        </a>
+        <a href="ejercicio21/index.html" class="card-ejercicio">
+            <span class="badge-num">Ejercicio 21</span>
+            <h3>Filtrar números mayores que un valor</h3>
+            <p>Filtrar números mayores que un valor. Escribe una función que tome un array de números y un valor, y devuelva un nuevo array con los números que son mayores que ese valor. Usa filter() para crear el nuevo array.</p>
+        </a>
+        </main>
+    </div>
 </body>
 </html>
