@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 6. ¿Par o impar? (campo input)</h1>
-    <p class="subtitulo">El mismo programa del Ejercicio 5 pero leyendo un campo del formulario</p>
+    <p class="banner-subtitle">El mismo programa del Ejercicio 5 pero leyendo un campo del formulario</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Crea un programa anterior para que se obtenga el <strong>número de un campo
         <code>input</code></strong> en lugar de usar <code>prompt()</code>.</p>
@@ -29,32 +28,30 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
-      <!-- Formulario real con label + input + botón -->
+      
       <form id="form-par-impar">
-        <div class="grupo-control">
+        <div class="form-item">
           <label for="campo-numero">Número:</label>
-          <!-- type="number" muestra un teclado numérico y valida entradas -->
+          
           <input type="number" id="campo-numero" placeholder="Ej: 15" required>
         </div>
-        <button type="submit" class="boton">Comprobar par/impar</button>
-        <button type="button" id="btn-limpiar" class="boton secundario">Limpiar</button>
+        <button type="submit" class="ui-btn">Comprobar par/impar</button>
+        <button type="button" id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
       </form>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Escribe un número y pulsa el botón.</div>
+      <div id="resultado" class="res-panel">Escribe un número y pulsa el botón.</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 6 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 6 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-06.js"></script>

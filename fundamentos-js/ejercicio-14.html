@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 14. ¿Es un palíndromo?</h1>
-    <p class="subtitulo">Comparar la palabra original con su versión invertida</p>
+    <p class="banner-subtitle">Comparar la palabra original con su versión invertida</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe una función que verifique si una palabra es un <strong>palíndromo</strong>
         (es decir, si se lee igual al derecho y al revés).</p>
@@ -29,31 +28,29 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
       <form id="form-palindromo">
-        <div class="grupo-control">
+        <div class="form-item">
           <label for="campo-palabra">Palabra o frase:</label>
           <input type="text" id="campo-palabra" placeholder="Ej: reconocer" required>
         </div>
-        <button type="submit" class="boton">Comprobar</button>
-        <button type="button" id="btn-azar" class="boton">Probar palabra aleatoria</button>
-        <button type="button" id="btn-limpiar" class="boton secundario">Limpiar</button>
+        <button type="submit" class="ui-btn">Comprobar</button>
+        <button type="button" id="btn-azar" class="ui-btn">Probar palabra aleatoria</button>
+        <button type="button" id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
       </form>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Escribe una palabra y pulsa "Comprobar".</div>
+      <div id="resultado" class="res-panel">Escribe una palabra y pulsa "Comprobar".</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 14 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 14 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-14.js"></script>

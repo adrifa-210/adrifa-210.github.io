@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 18. La palabra más larga de una frase</h1>
-    <p class="subtitulo">split() + bucle for para recorrer las palabras</p>
+    <p class="banner-subtitle">split() + bucle for para recorrer las palabras</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe una función que encuentre la <strong>palabra más larga</strong> en una frase
         ingresada por el usuario.</p>
@@ -28,31 +27,29 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
       <form id="form-frase">
-        <div class="grupo-control">
+        <div class="form-item">
           <label for="campo-frase">Frase:</label>
           <textarea id="campo-frase">Aprender programación es muy interesante</textarea>
         </div>
-        <button type="submit" class="boton">Buscar la más larga</button>
-        <button type="button" id="btn-ejemplo" class="boton">Otra frase</button>
-        <button type="button" id="btn-limpiar" class="boton secundario">Limpiar</button>
+        <button type="submit" class="ui-btn">Buscar la más larga</button>
+        <button type="button" id="btn-ejemplo" class="ui-btn">Otra frase</button>
+        <button type="button" id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
       </form>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Frase cargada. Pulsa el botón para buscar la palabra más larga.</div>
+      <div id="resultado" class="res-panel">Frase cargada. Pulsa el botón para buscar la palabra más larga.</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 18 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 18 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-18.js"></script>

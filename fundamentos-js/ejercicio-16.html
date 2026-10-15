@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 16. Celsius a Fahrenheit</h1>
-    <p class="subtitulo">Fórmula: Fahrenheit = (Celsius * 9/5) + 32</p>
+    <p class="banner-subtitle">Fórmula: Fahrenheit = (Celsius * 9/5) + 32</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe una función que convierta grados <strong>Celsius a Fahrenheit</strong>.
         La fórmula es:</p>
@@ -28,30 +27,28 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
       <form id="form-temperatura">
-        <div class="grupo-control">
+        <div class="form-item">
           <label for="campo-celsius">Grados Celsius:</label>
           <input type="number" id="campo-celsius" value="37" step="0.1">
         </div>
-        <button type="submit" class="boton">Convertir a Fahrenheit</button>
-        <button type="button" id="btn-limpiar" class="boton secundario">Limpiar</button>
+        <button type="submit" class="ui-btn">Convertir a Fahrenheit</button>
+        <button type="button" id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
       </form>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Celsius cargado: 37. Pulsa el botón para convertir.</div>
+      <div id="resultado" class="res-panel">Celsius cargado: 37. Pulsa el botón para convertir.</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 16 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 16 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-16.js"></script>

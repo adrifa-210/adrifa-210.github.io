@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 9. Revertir una cadena</h1>
-    <p class="subtitulo">split() + reverse() + join()</p>
+    <p class="banner-subtitle">split() + reverse() + join()</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe una función que tome una cadena como argumento y <strong>devuelva la cadena invertida</strong>.</p>
       <ul>
@@ -28,31 +27,29 @@
       <p>Ejemplo: <code>"hola"</code> → <code>"aloh"</code></p>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
       <form id="form-invertir">
-        <div class="grupo-control">
+        <div class="form-item">
           <label for="campo-texto">Cadena:</label>
           <input type="text" id="campo-texto" placeholder="Ej: JavaScript" required>
         </div>
-        <button type="submit" class="boton">Invertir cadena</button>
-        <button type="button" id="btn-ejemplo" class="boton">Probar ejemplo</button>
-        <button type="button" id="btn-limpiar" class="boton secundario">Limpiar</button>
+        <button type="submit" class="ui-btn">Invertir cadena</button>
+        <button type="button" id="btn-ejemplo" class="ui-btn">Probar ejemplo</button>
+        <button type="button" id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
       </form>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Escribe una cadena y pulsa "Invertir cadena".</div>
+      <div id="resultado" class="res-panel">Escribe una cadena y pulsa "Invertir cadena".</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 9 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 9 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-09.js"></script>

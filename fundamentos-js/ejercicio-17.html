@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 17. Ordenar un array de números</h1>
-    <p class="subtitulo">De menor a mayor con sort() y función de comparación</p>
+    <p class="banner-subtitle">De menor a mayor con sort() y función de comparación</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe un programa que tome un array de números y lo ordene de <strong>menor a mayor</strong>.</p>
       <ul>
@@ -27,29 +26,27 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
-      <div class="grupo-control">
+      <div class="form-item">
         <label for="campo-array">Array (separado por comas):</label>
         <input type="text" id="campo-array" value="5, 3, 9, 1, 100, 7, 2, 42">
       </div>
-      <button id="btn-ordenar" class="boton">Ordenar de menor a mayor</button>
-      <button id="btn-invertir-orden" class="boton secundario">Ordenar de mayor a menor</button>
-      <button id="btn-limpiar" class="boton secundario">Limpiar</button>
+      <button id="btn-ordenar" class="ui-btn">Ordenar de menor a mayor</button>
+      <button id="btn-invertir-orden" class="ui-btn ui-btn-alt">Ordenar de mayor a menor</button>
+      <button id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Array de ejemplo cargado. Pulsa "Ordenar de menor a mayor".</div>
+      <div id="resultado" class="res-panel">Array de ejemplo cargado. Pulsa "Ordenar de menor a mayor".</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 17 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 17 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-17.js"></script>

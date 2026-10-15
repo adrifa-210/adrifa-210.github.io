@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 3. Objeto persona</h1>
-    <p class="subtitulo">Todos los tipos de dato con console.log y console.table</p>
+    <p class="banner-subtitle">Todos los tipos de dato con console.log y console.table</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Declara un <strong>objeto persona</strong> con las propiedades más habituales, usando
         <strong>todos los tipos de datos</strong>, incluido un <strong>array</strong> y
@@ -31,28 +30,26 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
       <p>Encabezado y enlace del "mini expediente" de la persona:</p>
       <h3 id="nombre-persona">—</h3>
       <p><a id="enlace-correo" href="#">Enviar correo</a></p>
-      <button id="btn-log" class="boton">console.log(objeto)</button>
-      <button id="btn-table" class="boton">console.table(objeto)</button>
-      <button id="btn-limpiar" class="boton secundario">Limpiar</button>
+      <button id="btn-log" class="ui-btn">console.log(objeto)</button>
+      <button id="btn-table" class="ui-btn">console.table(objeto)</button>
+      <button id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Pulsa un botón para mostrar el objeto persona.</div>
+      <div id="resultado" class="res-panel">Pulsa un botón para mostrar el objeto persona.</div>
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 3 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 3 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-03.js"></script>

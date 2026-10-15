@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <header class="cabecera">
+  <header class="top-banner">
     <h1>Ejercicio 11. 100 números del 1 al 20</h1>
-    <p class="subtitulo">Cuenta de los números que al menos han aparecido una vez</p>
+    <p class="banner-subtitle">Cuenta de los números que al menos han aparecido una vez</p>
     <a href="index.html">← Volver al índice</a>
   </header>
 
-  <main class="contenedor">
+  <main class="main-container">
 
-    <!-- ====== ENUNCIADO (capa 1) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Enunciado</h2>
       <p>Escribe un programa que genere <strong>100 números del 1 al 20</strong>. Debe mostrar
         la <strong>cuenta de los números que al menos han aparecido una vez</strong>.</p>
@@ -28,22 +27,19 @@
       </ul>
     </section>
 
-    <!-- ====== ELEMENTOS NECESARIOS (capa 2) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Elementos del ejercicio</h2>
-      <button id="btn-generar" class="boton">Generar 100 números</button>
-      <button id="btn-tabla" class="boton">Ver lista con console.table()</button>
-      <button id="btn-limpiar" class="boton secundario">Limpiar</button>
-      <p class="aviso">Cada pulsación genera una tirada nueva (los resultados varían).</p>
+      <button id="btn-generar" class="ui-btn">Generar 100 números</button>
+      <button id="btn-tabla" class="ui-btn">Ver lista con console.table()</button>
+      <button id="btn-limpiar" class="ui-btn ui-btn-alt">Limpiar</button>
+      <p class="tip-box">Cada pulsación genera una tirada nueva (los resultados varían).</p>
     </section>
 
-    <!-- ====== RESULTADO EN CAPA DISTINTA (capa 3) ====== -->
-    <section class="tarjeta">
+    <section class="content-card">
       <h2>Resultado</h2>
-      <div id="resultado" class="capa-resultado">Pulsa "Generar 100 números" para comenzar.</div>
+      <div id="resultado" class="res-panel">Pulsa "Generar 100 números" para comenzar.</div>
 
-      <!-- Tabla con el recuento por número -->
-      <table id="tabla-resultado" class="tabla-datos">
+      <table id="tabla-resultado" class="data-grid">
         <thead>
           <tr><th>Número</th><th>Apariciones</th><th>¿Ha aparecido?</th></tr>
         </thead>
@@ -51,12 +47,12 @@
       </table>
 
       <p style="margin-top:1rem;">Salida de la consola capturada:</p>
-      <div id="consola" class="capa-consola"></div>
+      <div id="consola" class="console-box"></div>
     </section>
 
   </main>
 
-  <footer class="pie"><p>Ejercicio 11 - Fundamentos de JavaScript</p></footer>
+  <footer class="site-footer"><p>Ejercicio 11 - Fundamentos de JavaScript</p></footer>
 
   <script src="js/consola.js"></script>
   <script src="js/ejercicio-11.js"></script>
