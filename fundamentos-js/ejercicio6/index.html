@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6: Número par o impar desde input</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio5/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio7/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 6: Número par o impar desde input</h1>
+            <p class="subtitle">Lectura desde campos de formulario</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Crea un programa anterior para que se obtenga el número de un campo input.</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="numeroInput">Introduce un número:</label>
+                <input type="number" id="numeroInput" placeholder="Ejemplo: 42">
+            </div>
+            <div class="btn-group">
+                <button id="btnComprobar">Comprobar</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Introduce un valor y pulsa en Comprobar.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

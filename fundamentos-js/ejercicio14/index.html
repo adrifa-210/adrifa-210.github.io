@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14: Verificar si una palabra es palíndromo</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio13/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio15/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 14: Verificar si una palabra es palíndromo</h1>
+            <p class="subtitle">Comparación con versión invertida (split, reverse, join)</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Verificar si una palabra es un palíndromo. Escribe una función que verifique si una palabra es un palíndromo (es decir, si se lee igual al derecho y al revés). Compara la palabra original con su versión invertida usando split(), reverse() y join().</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="palabraInput">Palabra a comprobar:</label>
+                <input type="text" id="palabraInput" value="reconocer">
+            </div>
+            <div class="btn-group">
+                <button id="btnVerificar">Verificar palíndromo</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en Verificar.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

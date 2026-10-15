@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13: Contar palabras en una frase</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio12/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio14/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 13: Contar palabras en una frase</h1>
+            <p class="subtitle">División de cadenas con split() y recuento</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Contar palabras en una frase. Escribe un programa que cuente cuántas palabras tiene una frase ingresada por el usuario. Usa el método split() para dividir la frase en un array de palabras.</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="fraseInput">Frase:</label>
+                <textarea id="fraseInput" rows="3">Aprender JavaScript en el entorno cliente es fundamental para el desarrollo web moderno.</textarea>
+            </div>
+            <div class="btn-group">
+                <button id="btnContar">Contar palabras</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en Contar palabras.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12: Filtrar números pares de un array</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio11/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio13/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 12: Filtrar números pares de un array</h1>
+            <p class="subtitle">Uso de Array.prototype.filter() y operador módulo %</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Filtrar números pares de un array. Crea una función que tome un array de números y devuelva un nuevo array con solo los números pares. Usa filter() y el operador %</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="arrayInput">Números separados por comas:</label>
+                <input type="text" id="arrayInput" value="15, 22, 8, 19, 44, 3, 10, 77, 90, 102">
+            </div>
+            <div class="btn-group">
+                <button id="btnFiltrar">Filtrar pares</button>
+                <button id="btnAleatorio" class="btn-secundario">Generar números aleatorios</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en Filtrar pares.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

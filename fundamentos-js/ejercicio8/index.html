@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8: Número aleatorio en un intervalo</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio7/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio9/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 8: Número aleatorio en un intervalo</h1>
+            <p class="subtitle">Generación de números con Math.random()</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Escribe una función que permita generar un número aleatorio entero entre un intervalo. Por ejemplo azar(-5, 10). Salida: 3</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-row">
+                <div class="form-group">
+                    <label for="minIntervalo">Límite inferior (min):</label>
+                    <input type="number" id="minIntervalo" value="-5">
+                </div>
+                <div class="form-group">
+                    <label for="maxIntervalo">Límite superior (max):</label>
+                    <input type="number" id="maxIntervalo" value="10">
+                </div>
+            </div>
+            <div class="btn-group">
+                <button id="btnGenerar">Generar número aleatorio</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en generar para obtener un número.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

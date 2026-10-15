@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 21: Filtrar números mayores que un valor</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio20/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <span class="nav-link disabled">Siguiente &rarr;</span>
+            </nav>
+            <h1>Ejercicio 21: Filtrar números mayores que un valor</h1>
+            <p class="subtitle">Filtrado con Array.prototype.filter() y comparación</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Filtrar números mayores que un valor. Escribe una función que tome un array de números y un valor, y devuelva un nuevo array con los números que son mayores que ese valor. Usa filter() para crear el nuevo array.</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="arrayInput">Números separados por comas:</label>
+                <input type="text" id="arrayInput" value="12, 45, 7, 89, 23, 64, 5, 50, 31, 100">
+            </div>
+            <div class="form-group">
+                <label for="valorCorte">Valor umbral (filtrar mayores que):</label>
+                <input type="number" id="valorCorte" value="30">
+            </div>
+            <div class="btn-group">
+                <button id="btnFiltrar">Filtrar mayores</button>
+                <button id="btnAleatorio" class="btn-secundario">Generar datos aleatorios</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en Filtrar mayores.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

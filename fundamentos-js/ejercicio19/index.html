@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19: Calcular el promedio con reduce()</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <a href="../ejercicio18/index.html" class="nav-link">&larr; Anterior</a>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../ejercicio20/index.html" class="nav-link">Siguiente &rarr;</a>
+            </nav>
+            <h1>Ejercicio 19: Calcular el promedio con reduce()</h1>
+            <p class="subtitle">Acumulación y cálculo de media aritmética</p>
+        </header>
+
+        <main>
+            <section class="enunciado">
+                <h2>Enunciado</h2>
+                <p>Calcular el promedio de un array de números. Escribe una función que reciba un array de números y calcule su promedio. Usa reduce() para sumar todos los números y luego divide entre la longitud del array.</p>
+            </section>
+
+            <section class="interaccion">
+                <div class="form-group">
+                <label for="arrayInput">Números separados por comas:</label>
+                <input type="text" id="arrayInput" value="7.5, 8.2, 9.0, 6.4, 10.0, 8.8">
+            </div>
+            <div class="btn-group">
+                <button id="btnPromedio">Calcular promedio</button>
+                <button id="btnAleatorio" class="btn-secundario">Generar números aleatorios</button>
+            </div>
+            </section>
+
+            <section class="seccion-resultado">
+                <h3>Resultado</h3>
+                <div id="resultado" class="resultado">
+                    <p>Haz clic en Calcular promedio.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
